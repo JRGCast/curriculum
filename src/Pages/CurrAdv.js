@@ -3,9 +3,12 @@ import Title from '../Components/Title';
 
 
 const CurrAdv = () => {
-  return ( 
+  return (
+    <main>
+      <h1>EM CONSTRUÇÃO</h1>
     <Title job="adv">
     </Title>
+    </main> 
    );
 }
  
