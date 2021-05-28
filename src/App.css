@@ -28,6 +28,20 @@
   color: #61dafb;
 }
 
+.navBar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.navBar a {
+  text-decoration: none;
+}
+
+.navBar a:hover {
+  color: lightseagreen;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
